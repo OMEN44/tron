@@ -1,0 +1,59 @@
+.app {
+    border: 2px solid #fff; /* white */
+}
+
+.input {
+    border: 2px solid #ff0000; /* red */
+}
+
+.prefs-btn {
+    /* gear icon */
+}
+
+.result-box {
+    border: 2px solid #00ff00; /* green */
+}
+
+.item-frame {
+    border: 2px solid #0000ff; /* blue */
+}
+
+.item-box {
+    border: 2px solid #ffff00; /* yellow */
+}
+
+.item-container {
+    border: 2px solid #ff00ff; /* magenta */
+}
+
+.item-icon {
+    border: 2px solid #00ffff; /* cyan */
+}
+
+.item-text {
+    border: 2px solid #007233; /* dark green */
+}
+
+.small-result-item {
+    border: 2px solid #f86401; /* orange */
+}
+
+.item-highlight {
+    border: 2px solid #572e00; /* brown */
+}
+
+.item-name {
+    color: #ff0000; /* red text */
+}
+
+.item-descr {
+    color: #00ff00; /* green text */
+}
+
+.item-shortcut {
+    color: #0000ff; /* blue text */
+}
+
+.selected {
+    background-color: #5e5e5e; /* dark grey background */
+}

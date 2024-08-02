@@ -1,0 +1,73 @@
+@import url("./reset.css");
+
+@define-color primary rgb(124, 253, 254);
+@define-color primary_t rgba(124, 253, 254, 0.2);
+@define-color background rgba(26, 26, 27, 0.85);
+@define-color text_color rgba(208, 208, 208, 1);
+
+.prefs-btn {
+    background-color: @background;
+    border-radius: 0 5px 5px 0;
+    padding: 9px 4px;
+    margin-right: -15px;
+    border: @primary 2px;
+    border-style: solid solid solid none;
+}
+
+.input {
+    background-color: @background;
+    border-radius: 5px 0 0 5px;
+    margin: 0 -20px;
+    padding: 5px 0 5px 10px;
+    border: @primary 2px;
+    border-style: solid none solid solid;
+    font-size: 170%;
+}
+
+.result-box {
+    border: 2px @primary solid;
+    border-radius: 5px;
+    background-color: @background;
+    padding-bottom: 8px;
+}
+
+.item-container {
+    margin: 8px -10px 0 -10px;
+    border-bottom: 2px transparent solid;
+}
+
+.item-name {
+    font-size: 120%;
+}
+
+.item-text {
+    color: @text_color;
+}
+
+.item-shortcut {
+    margin-right: -5px;
+}
+
+.selected .item-container {
+    background-color: @primary_t;
+    border-radius: 5px;
+    border-bottom: 2px @primary_t solid;
+}
+
+.result-box {
+    margin-top: -10px;
+}
+
+.item-descr {
+    font-size: 80%;
+}
+
+
+/* For highlighting text in the input */
+
+.input *:selected,
+.input *:focus,
+*:selected:focus {
+    background-color: @primary_t;
+    color: @primary;
+}
