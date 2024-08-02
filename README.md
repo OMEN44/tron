@@ -8,7 +8,7 @@ This same colour scheme and style is also taken from my [website](https://huon.d
 1. clone this repo:
 
 ```sh
-git clone url
+git clone https://github.com/OMEN44/tron.git
 ```
 
 2. make sure you have the `~/.config/ulauncher/user-themes/` directory, if not create it.
